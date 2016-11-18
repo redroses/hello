@@ -1,0 +1,18 @@
+{
+   "name": "codecourse/hello",
+   "description": "A package to say hello",
+   "authors": [
+      {
+         "name": "Alex Garrett",
+         "email": "alex@codecourse.com"
+      }
+   ],
+   "autoload": {
+      "psr-4": {
+         "Codecourse\\Hello\\": "src/"
+      },
+      "files": [
+         "src/Codecourse/Hello/functions.php"
+      ]
+   }
+}
